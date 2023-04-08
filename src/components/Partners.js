@@ -8,7 +8,7 @@ export default function Partners() {
     >
       <div className="flex flex-col gap-y-6">
         <div className="text-4xl md:text-5xl font-semibold text-center flex items-center justify-center">
-          Founding Contributors
+          Contributors
         </div>
         <div className="text-lg text-center flex items-center justify-center font-anek mt-5 max-w-5xl mx-auto leading-relaxed">
           OpenCost is led by a network of Kubernetes experts, and supported by a
@@ -17,7 +17,7 @@ export default function Partners() {
       </div>
       <div className="flex justify-center xl:mt-10">
         <div className="flex flex-wrap justify-center gap-x-20 gap-y-2 max-w-5xl mx-auto">
-          <a href="https://www.adobe.com/" target="_blank" rel="noopener noreferrer">  
+          <a href="https://www.adobe.com/" target="_blank" rel="noopener noreferrer">
           <div className="w-56 h-52 pb-3 items-center flex">
             <img src="/img/adobe.png" alt="Adobe"/>
           </div></a>
@@ -37,6 +37,10 @@ export default function Partners() {
             <div className="w-72 h-52 items-center flex">
             <img src="/img/google.png" alt="Google Cloud" />
           </div></a>
+          <a href="https://grafana.com/" target="_blank" rel="noopener noreferrer">
+            <div className="w-72 h-52 items-center flex">
+            <img src="/img/grafana_logo-web.svg" alt="Grafana" />
+          </div></a>
           <a href="https://www.kubecost.com/" target="_blank" rel="noopener noreferrer">
             <div className="w-72 h-52 items-center flex pb-3">
             <img src="/img/kubecost.png" alt="Kubecost" />
@@ -52,10 +56,6 @@ export default function Partners() {
           <a href="https://www.pixielabs.ai/" target="_blank" rel="noopener noreferrer">
             <div className="w-52 h-52 items-center flex pb-2.5">
             <img src="/img/pixie.png" alt="Pixie" />
-          </div></a>
-          <a href="https://www.redhat.com/" target="_blank" rel="noopener noreferrer">
-          <div className="w-64 h-52 items-center flex pb-0.5">
-            <img src="/img/redhat.svg" alt="Redhat" />
           </div></a>
           <a href="https://www.suse.com/" target="_blank" rel="noopener noreferrer">
           <div className="w-72 h-52 items-center flex pb-1">

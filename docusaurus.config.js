@@ -56,7 +56,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/kubecost/opencost-website/tree/main",
+          editUrl: "https://github.com/opencost/opencost-website/tree/main",
         },
         blog: {
           showReadingTime: true,
@@ -81,8 +81,10 @@ const config = {
         logo: {
           alt: "OpenCost Logo",
           src: "img/logo.png",
+          srcDark: "img/logo-white.png",
         },
         items: [
+          { to: "/enterprise", label: "Enterprise", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           {
             type: "doc",
@@ -90,6 +92,8 @@ const config = {
             position: "left",
             label: "Documentation",
           },
+          { to: "/api", label: "API", position: "left" },
+          { to: "/press", label: "Press", position: "left" },
           {
             to: "https://slack.cncf.io/",
             label: "Join Slack",
